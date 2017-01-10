@@ -1,6 +1,6 @@
 package eventer
 
-import "github.com/couchbase/gocb"
+import "gopkg.in/couchbase/gocb.v1"
 
 type WatcherCtrlr struct {
 	cntlBucket *gocb.Bucket

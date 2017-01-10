@@ -1,12 +1,13 @@
 package eventer
 
 import (
-	"time"
-	"github.com/couchbase/gocb"
-	"github.com/google/uuid"
-	"github.com/brett19/gocbdistapp"
-	"fmt"
 	"errors"
+	"fmt"
+	"time"
+
+	"github.com/brett19/gocbdistapp"
+	"github.com/google/uuid"
+	"gopkg.in/couchbase/gocb.v1"
 )
 
 var (

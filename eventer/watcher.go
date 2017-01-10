@@ -1,12 +1,13 @@
 package eventer
 
 import (
-	"time"
-	"github.com/couchbase/gocb"
-	"regexp"
 	"fmt"
-	"github.com/couchbase/gocbcore"
+	"regexp"
+	"time"
+
 	sdcp "github.com/brett19/gosimpledcp"
+	"gopkg.in/couchbase/gocb.v1"
+	"gopkg.in/couchbase/gocbcore.v2"
 )
 
 type WatcherConfig struct {

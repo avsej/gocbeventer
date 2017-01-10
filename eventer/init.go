@@ -1,10 +1,11 @@
 package eventer
 
 import (
-	"github.com/couchbase/gocb"
-	"time"
 	"fmt"
 	"io/ioutil"
+	"time"
+
+	"gopkg.in/couchbase/gocb.v1"
 )
 
 func Start() {
